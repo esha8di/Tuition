@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0073e6;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #005bb5;
+    border-radius: 4px;
+}
+
+
+.homepage-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.content {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    margin-top: 50px;
+}
+
